@@ -35,5 +35,23 @@ To support the research community, we would like to share the bag files used in 
 |<br/>| 1.83 GB |[sofa_normal](https://drive.google.com/file/d/1d_ke4uW-weZNs3mjPPV8DSCXmUtE520c/view?usp=sharing) |
 |<br/>| 1.13 GB |[desk_normal](https://drive.google.com/file/d/1Hh-Xz3ECak_OvI2xQtYR8BJordsEs9Sd/view?usp=sharing) |
 |<br/>| 1.34 GB |[hdr_normal](https://drive.google.com/file/d/12m4SczbE81O1nlfLMOxyf3b-AmMjwRkT/view?usp=sharing) |
+|<br/>| 0.66 GB |[corridors_dolly](https://drive.google.com/file/d/1MMGI7dOElvtyBIuxznsPstCo1dLRJAKH/view?usp=sharing) |
+|<br/>| 2.11 GB |[units_dolly](https://drive.google.com/file/d/19fMuf9J-FScOPBWFE9sHJPEAj-sgRDRG/view?usp=sharing) |
 
 </div>
+
+
+#### Modified RPG
+[RPG](https://rpg.ifi.uzh.ch/ECCV18_stereo_davis.html): recorded with two DAVIS240C sensors in stereo configuration, in a room with a motion capture system. We merge the events rosbag and IMU rosbag into one single bag. The name of IMU message has been changed to "imu0". Bagfiles include 3 topics: ```/davis/left/events```, ```/davis/right/events```, and ```/imu0```.
+
+<div align="center">
+
+| Sequence Name 	|Size | Drive Link| 
+|---	|---	|---	|
+|**RPG Dataset**| 0.13 GB |[bin](https://drive.google.com/file/d/159kzUngUO1G-KAqQNuQavDl8s4yVkICp/view?usp=sharing) |
+|<br/>| 0.29 GB |[boxes](https://drive.google.com/file/d/1SOw1Dt-Zx36xR_0Ep8H423iUxjEmy-8e/view?usp=sharing) |
+|<br/>| 0.18 GB |[desk](https://drive.google.com/file/d/1EntZtgdUsHtOvS4lu2mZFJFHDo0T4Pqd/view?usp=sharing) |
+|<br/>| 0.15 GB |[monitor](https://drive.google.com/file/d/1o4xxFRPzbpQbWeofihFMoRu1AWOeTH0K/view?usp=sharing) |
+
+</div>
+
