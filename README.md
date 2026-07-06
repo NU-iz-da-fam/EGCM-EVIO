@@ -20,4 +20,20 @@ To support the research community, we would like to share the bag files used in 
 |**Zurich City 09**| 0.92 GB |[9b](https://drive.google.com/file/d/1IzQZjAiO5vCVDUH3PI7LXKbCt2rw_iEi/view?usp=sharing) |
 |**Zurich City 11**| 0.73 GB |[11a](https://drive.google.com/file/d/1L0GXYvQteJfV_EhySC6FDu_T1Bq2a1Jl/view?usp=sharing) |
 |<br/>| 4.55 GB |[11b](https://drive.google.com/file/d/1qwTkWYvQ5bgIxxAxjnFxU0kERdBG3ckr/view?usp=sharing) |
+
+</div>
+
+
+#### Modified VECtor
+[VECtor](https://star-datasets.github.io/vector/): "VECtor: A Versatile Event-Centric Benchmark for Multi-Sensor SLAM". We merge the left, right and IMU rosbag into one single bag. The type of event message has been changed from propheesee to dvs message. Bagfiles include 3 topics: ```/davis/left/events```, ```/davis/right/events```, and ```/imu0```.
+
+<div align="center">
+
+| Sequence Name 	|Size | Drive Link| 
+|---	|---	|---	|
+|**VECtor Dataset**| 0.29 GB |[robot_normal](https://drive.google.com/file/d/1It0ohU3WmZAtO9OaY-f2e88Wm3YEeGcz/view?usp=sharing) |
+|<br/>| 1.83 GB |[sofa_normal](https://drive.google.com/file/d/1d_ke4uW-weZNs3mjPPV8DSCXmUtE520c/view?usp=sharing) |
+|<br/>| 1.13 GB |[desk_normal](https://drive.google.com/file/d/1Hh-Xz3ECak_OvI2xQtYR8BJordsEs9Sd/view?usp=sharing) |
+|<br/>| 1.34 GB |[hdr_normal](https://drive.google.com/file/d/12m4SczbE81O1nlfLMOxyf3b-AmMjwRkT/view?usp=sharing) |
+
 </div>
