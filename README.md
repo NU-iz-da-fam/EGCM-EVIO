@@ -1,10 +1,10 @@
 ## EGCM-EVIO: Real-Time Stereo Event-Inertial Odometry via Event-Guided Feature Extraction and Confidence-Masked Time Surface
 
 
-### Introduction
+### I. Introduction
 EGCM-EVIO is a real-time stereo event-inertial odometry system, deployed on Jetson AGX Orin. EGCM-EVIO proposes Confidence-Masked Time Surface (CM-TS), which suppresses noisy pixels, and Event-Guided Feature Extraction (EGFE) that replaces generic feature extractors. The proposed system achieves consistently competitive performance compared with SOTA methods.
 
-### Datasets Used
+### II. Datasets Used
 To support the research community, we would like to share the bag files used in the manuscripts.
 #### Modified DSEC
 [DSEC](https://dsec.ifi.uzh.ch/) is a stereo camera dataset in driving scenarios that contains data from two monochrome event cameras and two global shutter color cameras. Because the format of dataset is h5, so we convert all the sequences into bagfiles, including 3 topics: ```/davis/left/events```, ```/davis/right/events```, and ```/imu0```
@@ -55,3 +55,6 @@ To support the research community, we would like to share the bag files used in 
 
 </div>
 
+### III. Evaluation
+- We uploaded our results [here]()
+- The final source code is under active development for an extended version and will be released subsequently.
